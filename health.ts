@@ -1,0 +1,1 @@
+export const onRequest: PagesFunction = async () => Response.json({app:'SignalPro',status:'online',apis:{market:'/api/market?symbol=BTCUSD&interval=1h',ai:'/api/analyze (POST; requires GEMINI_API_KEY)'},checkedAt:new Date().toISOString()});
